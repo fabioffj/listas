@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #515151;
+}
+
+#site {
+    width: 800px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 20px auto;
+    min-height: 500px;
+}
+
+ul li {
+    list-style: url(./img/check-mark.png);
+}
+
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    background-color: #999;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
